@@ -1,0 +1,1936 @@
+*, ::after, ::before {
+    box-sizing: initial !important;
+}
+body{ background-color: #E5E5E5 !important;
+    position: relative;
+    max-width: 1280px;
+    margin:auto !important
+}
+html, body {
+    background-color: #E5E5E5;
+    overflow-x: hidden;
+ 
+}
+header button:hover ,.section1 button:hover {
+  
+color:#4f2cce;
+border:1px solid #4f2cce;
+
+background: transparent;
+}
+button:active{
+    border:none
+}
+.section3  button:hover{
+    color:#70C217;
+    border:1px solid #70C217;
+    font-weight: 500;
+    background: transparent;
+    
+}
+button{
+    transition: 0.3s;
+}
+pre {
+
+    overflow: inherit !important;}
+
+
+
+.center span:hover,ul span:hover {
+color:#7854F7;
+font-weight: 600;
+    text-shadow: 0 15.36px 10.896px #272D4E,0 -1.5px 1px #272D4E}
+
+button,i {
+    cursor: pointer;
+}
+img#ell27,#ell15,#ell28,#ell29,#ell26,#ell30,header span ,header p, header img{
+    cursor: pointer;
+}
+.menu{    position: relative;
+    z-index: 2;
+    display: none;
+    padding: 3%;
+}
+ul.nav.navbar-nav {
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto;
+    clear: both;
+    text-align: center;
+}
+button.navbar-toggler {
+    float: right;
+}
+.navbar-header {
+    float: left;
+}
+ul.nav.navbar-nav span {
+    margin: 2%;
+}
+button, input, optgroup, select, textarea,pre{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+
+    font-size: auto  !important;
+    line-height: inherit;
+}
+
+@font-face {
+    font-family: 'Circular Std Book', Helvetica, Arial, " sans-serif"!important;
+src: url('../font/CircularStd-Book.eot');
+src: url('../font/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+     url('../font/CircularStd-Book.woff') format('woff'),
+     url('../font/CircularStd-Book.ttf') format('truetype'),
+     url('../font/CircularStd-Book.svg#CircularStd-Book') format('svg');    
+}
+
+#grey{
+    color:#94A2B3
+}
+#blue{
+    color: #299EF3;
+
+}
+img#ell35, #ell321, #ell36, #ell341, #grp51{
+    width:5%
+}
+.inline,.inline1{
+    display: flex;flex-direction: row;
+}
+div#navbarToggleExternalContent {
+    position: relative;
+    z-index: 2;
+    background-color: #E5E5E5;
+    width: 100%;
+    left:0;
+    top: 0;
+    position: absolute;
+}
+header{
+    position: relative;
+    z-index: 1;
+    padding: 1%;
+    display: flex  !important;
+ 
+    justify-content: space-between;
+}
+input{
+    display: none;
+}
+.fa.fa-search:active input{
+    display: block;
+}
+
+header .left{    position: relative;
+    z-index: 1;
+    width:169px;
+    height:34px;
+    margin:auto
+}
+header .center{
+    width:45%;
+
+    margin: auto 5%;
+
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 600;
+display: flex;
+flex-direction: row;
+
+}
+header .center span{
+
+        margin-right: 3%;
+        margin-top:auto;
+        margin-bottom: auto;
+    
+}
+
+header .right { 
+    color: #272D4E;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: space-around;
+    width: 25%;
+    display: flex;
+}
+header button{
+    background: #7854F7;
+    color:white;
+border:none;    border-radius: 5px;
+
+    font-size: 17px;
+
+    width: 97px;
+    height:37px
+}
+header .right span ,header .right  i{
+    margin:auto 0
+}
+
+/*Section 1*/
+.section1{
+    margin:7% 0 0 0;
+    display:flex;
+    flex-direction: row;
+
+
+}
+.section1 .left {
+
+    width: 35%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 15%;
+}
+.section1 .left p{
+    margin:auto 0
+}
+.right,.left {
+    z-index: 1;
+    width: 50%;
+}
+.section1 h1 pre{
+    color: #272D4E;
+    font-size: xxx-large;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+   
+    margin-bottom: 1%;
+    font-weight: 700;
+
+}
+.section1 h6{
+    color: #94A2B3;
+    font-size: medium;
+    margin-top:5%;
+    width:80%
+
+}
+.section1 button{
+    background: #7854F7;
+    color:white;
+border:none; 
+    border-radius: 60px;
+    width:150px;
+    height:40px;
+margin-top:2%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"  !important;
+  
+
+
+}
+header img ,.section2 img ,
+#rec236 ,#rec233,img#ell27,#ell15,#ell28,#ell29,#ell26,#ell30,#logo,img#ell26{
+cursor:pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+
+header img:hover,img#ell27:hover,#ell15:hover,#ell28:hover,#ell29:hover,#ell30:hover,img#ell26:hover,
+#rec236:hover ,#rec233:hover,.section2 img:hover,#logo:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.right {
+    width: 50%;
+}
+
+.section1 .right img {
+    width: 97%;
+    float: right;
+    height: 100%;
+    margin-top: -6%;
+}
+
+
+
+
+#u{
+    z-index: 0;
+    position: absolute;
+    top:-220px;
+    overflow: hidden;
+    right: 0;
+    width:61%
+}
+/*Section 2*/
+
+
+section.section2 {
+    margin-top: -5%;
+    position: relative;
+}
+.section2 .inline{
+    justify-content: center;
+    margin-top:-5%
+
+}
+
+.section2 #title{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color:#272D4E;
+    font-size: xx-large;
+    margin:0 auto;
+    text-align: center;
+    font-weight: 700;
+
+}
+.section2  .left ,.section2 .right {
+ 
+    width:27%;
+    margin:auto 5px;
+}
+ .section2 .center {
+    margin:auto 5px;
+
+    width: 30%;}
+.section2 img{
+    width:110%;
+    height: 100%;
+
+}
+.section3 .block1 h2 {
+    font-family: "Circular Std";}
+.section2 div#main {
+    float: right;
+    
+    width: 90%;
+    margin-top: -5%;
+}
+.section2 .left div#main{
+    margin-top:0
+}
+.section2 #main h4{
+  
+        margin: 0;
+        font-size: x-large;
+        font-weight: bold;
+color: #272D4E;
+
+    
+}
+.section2 p {
+    margin-top: 5%;}
+/*Section2 Left*/
+.section2 .left img{
+    float :right;
+    margin-right:-10%
+}
+.section2 .left{
+    position: relative;
+}
+
+
+.section2 #image16{
+    position: absolute;
+    width:200px;
+    height: 264px;
+    border-radius: 10px;
+    top:50px;
+    left:-15%;
+
+}
+.section2 #apple{
+    position: absolute;
+    width:48px;
+    height: 28px;
+    top:33px;
+    left:-2.5%
+}
+.section2 .center{
+    position: relative;
+}
+#img17, #img18,#img19,#img20,#img21,#img22{
+    width:140px;
+    height:120px;
+    border-radius: 10px;
+    position: absolute;
+}
+#img18{
+    top:15px;
+right:60px
+}
+#img17{
+    top:-15px;
+    left:35px;
+    
+}
+#img19{
+    top:75px;
+    left:35px
+}
+
+#img20{
+    top:160px;
+    left:95px
+}
+#img22{
+    top:100px;
+    right:65px
+}
+/*Right*/
+
+.section2 .right {
+    position: relative;
+    margin-top:205px
+}
+
+#rec226,#rec227,#rec228{
+    width:140px;
+    height:95px;
+    border-radius: 10px;
+    position:absolute
+}
+
+img#rec227 {
+    left: 35px;
+    top: -15px;
+    width:150px;
+    height:130px;
+}
+img#rec228 {
+    top: -95px;
+    right: 0;
+    width:150px;
+    height:130px;
+}
+img#rec226 {
+    top: 93px;
+    right: -20%;
+    width:185px;
+    height:135px;
+}
+.section2 img{
+    cursor: pointer;
+}
+
+
+#Center{
+    margin-top:135px
+}
+
+
+
+/*Section 3*/
+
+#rec236 {
+    z-index: 1;}
+.section3{
+background: url("Rectangle234.png")   no-repeat;
+    width:100%;
+    color:white;
+   
+    padding:5% 5% 1px 5%;
+    position: relative;
+    
+    background-size: cover;
+}
+    
+
+
+.top{
+    z-index: 1;
+    margin: 0 auto;
+
+
+}
+#rec236{
+    width:330px;
+    height: 418px;
+top:-30px;
+left:15%;
+position: absolute;
+
+
+}
+.section3 .block ,.block1{
+    display: flex;
+    flex-direction: column;
+}
+.section3 .top .block1{  padding-left: 15%;}
+
+.section3 .block1{
+margin-left: auto;
+margin-right: auto;
+    width:35%;
+    margin-top:0;
+ 
+}
+.section3  .block {
+    margin-bottom: 5%;
+}
+
+.section3  span {
+    
+    font-weight: 400;
+    font-size: 18px;
+}
+.section3  .block1 h2{
+font-weight: 700;
+
+margin:1%
+}
+
+
+.section3  button{
+    color:white;
+    background:#70C217 ;
+border:none;
+    margin-top: 5%;
+    width: 185px;
+    height: 44px;
+    border-radius: 60px;
+
+
+}
+
+.section3 .bottom{
+    display: flex;
+    flex-direction: row;
+margin:5% auto;
+justify-content: center;
+}
+.section3 .bottom .block1{
+    margin:0
+}
+#rec233{
+    width:330px;
+    height: 418px;
+margin-bottom: -10vw;
+
+}
+
+
+
+
+.section3 .bottom .block1{
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.img  img{ 
+    position: absolute;
+}
+
+
+
+img#ell32 {
+    width: 45px;
+    top: 65px;
+    height: 45px;
+    left: 150px;
+}
+
+img#ell34 {
+    left: 150px;
+    top: 150px
+}
+
+img#grp7 {
+    top: 300px;
+ width: 11%;
+    left: 100px
+}
+.section3 .bottom {
+    z-index: 2;}
+
+#rec233 {
+    z-index: 2;
+}
+
+img#ell33 {
+    left: 60%;
+    z-index: 3;
+    bottom: 315px;
+   width: 45px
+   
+}
+
+img#union {
+    /* width: 30%; */
+    right: 0;
+}
+
+
+img#grp8 {
+    width: 25%;
+    right: 0;
+    bottom: 10%;
+}
+img#ell31 {
+    right: 15%;
+    width: 17%;
+    bottom: 20%;
+}
+
+
+
+/*Section4*/
+
+.title{
+
+    color:#272D4E;
+    font-size: xx-large;
+    margin:0 auto;
+    text-align: center;
+    font-weight: 700;
+
+}
+.section4 .title{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.section4{
+    position: relative;
+}
+.section4 .img{
+    position: absolute;}
+    .section4 .grey {
+        
+        color: #94A2B3;
+        width: 30%;
+        z-index: 1;
+        margin: 15% auto 0 auto;
+    }
+    img#rec229 {
+        width: 600px;
+        z-index: -1;
+        left: 25vw;
+        top: -185px;
+        height: 300px;
+    }
+    .section4 {
+        position: relative;
+        margin-top: 10%;
+        padding: 0 3%;
+    }
+    .section4 .grey {
+
+        color: #94A2B3;
+        width: 30%;
+        z-index: 1;
+        border-radius: 16px;
+        margin: 15% auto 0 auto;
+    }
+
+    img#rec229 {
+        width: 600px;
+        z-index: -1;
+        left: 25vw;
+        top: -185px;
+        height: 300px;
+    }
+    .section4 {
+        position: relative;
+        margin-top: 7%;
+        padding: 0 3%;
+    }
+
+    img#ell15 {
+        left: 200px;
+      bottom: 200px;
+        width: 120px;
+    }
+    
+    img#ell27 {
+        width: 90px;
+        bottom: 80px;
+    }
+    
+    
+    img#ell29 {
+        width: 94p;
+        bottom: 190px;
+        left: 900px;
+    }
+    img#ell28 {
+        width: 154px;
+        bottom: 0px;
+        left: 1000px ;
+    }
+    img#ell26 {
+        width: 100px;
+        top: 90px;
+        left: 150px;
+    }
+    
+    img#ell30 {
+        top: 90px;
+         left: 900px;
+    }
+
+    img#comma {
+        width: 180px;
+        bottom: 0px;
+        left: 500px;
+        z-index: -1;
+    }
+
+    img#group5 {
+        height: 15vw;
+        left: 22vw;
+        bottom: -10vw;   z-index: -2;
+    }
+    img#grp6 {
+        z-index: -2;
+        bottom: 0;
+        left: 40vw;
+           height: 15vw;
+    }
+    img#Rarrow {
+        left: 55vw;
+        bottom: -157px;
+        width:47px;
+    
+    
+    }
+    img#Larrow {
+        left: 50vw;
+        bottom:-155px
+    }
+
+    /*Section5*/
+    .section5 img#img24,.section5 .inline {
+       
+        position: relative;
+        z-index: 2;
+    }
+    .section5 img {
+        margin: auto;
+
+        text-align: center;
+        display: flex;
+        /* justify-content: center; */
+    }
+    .section5 img#img24 {
+        width: 80% !important;
+    }
+    section.section5 {
+
+        margin-top: 20%;
+    }
+
+    .section5 .grey {
+        text-align: center;
+        margin: auto;
+    color:#94A2B3;
+    margin-top:3%;
+    width:50%;
+
+    }
+
+    .section5 .inline{
+        background: #5F37EF;
+        
+    }.section5 .inline{
+        margin-top:-5px;
+        padding:5%;
+        color:white;
+        width:90%;
+        padding-left:10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section5 button{
+        background: transparent;
+        border:1px solid white;
+        color:white;
+        border-radius: 60px;
+        width:150px;
+        height:50px;
+        
+    margin: auto 0;
+    }
+    .section5 .grey {
+   
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .section5 .inline h2 span{
+        font-weight: 700;
+    }
+    .section5 .inline h2{
+        text-align: left;
+   font-weight: 400;
+ 
+    margin:1%;
+    font-size: 32px;
+
+    }
+    .section5 .inline {
+        margin-top: -4px;
+        padding: 3%;
+        color: white;
+        width: 100%;
+        /* padding-left: 10%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .section5 div {
+        width: 65%;
+    }
+    .inline{
+        display: flex;
+        flex-direction: row;
+    }     
+    .block{
+    display: flex;
+    flex-direction: column;
+}
+.section5{
+    position: relative;
+}
+img#ell35 {
+    bottom: 20vw;
+
+    width: 30px;
+    left: 5px
+}
+img#ell35, #ell321, #ell36, #ell341, #grp51 {
+    position: absolute;
+
+}
+img#grp51 {
+    top: 20vw;  /* z-index: 1; */
+    width: 20vw;
+    right: 0;
+}
+img#ell321 {
+    right: 0;
+    width: 3vw
+}
+img#ell321 {
+    right: 0;
+    width: 3vw}
+    img#ell341 {
+        width: 4vw;
+        bottom: -2vw;
+        right: 0;
+    }
+
+/*Section6*/
+.section6{
+    padding:5%;
+    color:white;
+    height:100%;
+    background-color: #7854F7;
+}
+.section6  .inline{
+    justify-content: space-around;
+}
+.section6 .inline img{
+    width:40px
+}
+.section6 #logo{
+    margin:auto;
+    width:180px;
+    height: 35px;
+}
+.section6 .inline img {
+    margin-right: 10px;
+
+    width: 40px
+}
+span#inline {
+    display: flex;
+    /* text-align: center; */
+    margin: auto;
+    align-items: center;
+}
+
+span#inline {
+    display: flex;
+    /* text-align: center; */
+    margin: auto;
+    align-items: center;
+}
+
+
+
+.section6 #logo {
+    text-align: center;
+    justify-content: center;
+    margin: 7% auto 3%;
+    width: 180px;
+       height: 35px;
+    display: flex;
+}
+hr {
+    border-bottom: 1px solid darkgrey !important
+}
+
+
+
+
+.section6 .block p{
+   
+    font-weight: 700;
+    font-size: medium;
+text-transform: uppercase;
+}
+
+.section6 .block span{
+   
+    font-weight: 400;
+    margin-top:4%;
+    font-size: medium;
+}
+.section5 img{
+
+        width: 100%;
+    
+}
+
+
+
+.section4{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width:1260px){
+    .section1 .left {
+    width: 42%;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 7%;
+}
+    
+}
+@media screen and (max-width:1150px) {
+    #u {width:70%;
+   }
+    img#ell28 {
+        width: 154px;
+        bottom: 0px ;
+        left: 75vw;
+    }
+    #img20 {
+        top: 13vw}
+        #img22 {
+        top:10vw}
+    img#ell29 {
+
+        left: 70vw;
+    }
+    img#ell26 {
+
+        left: 7vw;
+    }
+    .section2 #image16 {
+
+        width: 150px;
+        height: 194px;
+    }
+    .section2 #apple {
+    
+        left: -9%;}
+    
+    #img17, #img18, #img19, #img20, #img21, #img22 {
+        width: 90px;
+        height: 90px;
+    
+    }
+    
+    img#group5{
+        height:12vw;
+        left:19vw;
+        bottom:-12vw
+    }
+    
+    .section3 {
+      
+        background-size: cover;
+    }
+    
+    .section3 .top .block1 {
+        padding-left: 30%;
+    }
+    
+    img#ell34 {
+        width: 15%;
+    
+    
+    
+    }
+    .section2 .inline {
+        justify-content: space-evenly;
+        margin: -5% auto 5% auto;
+    }
+
+    
+    
+    img#grp6 {
+        z-index: -2;
+        bottom: 3vw;
+        left: 40vw;
+        height: 15vw;
+    }
+    
+    
+    img#ell15 {
+        left: 200px;
+        bottom: 190px;
+        width: 9vw;
+    }
+    
+    
+    
+    img#ell30 {
+        top: 90px;
+        left: 70vw;
+    }
+    img#comma {
+     
+        left: 35vw
+
+    } 
+    
+    
+img#rec229 {
+    width: 45vw;
+
+    left: 23vw;
+    top: -200px;
+   
+}
+}
+@media screen and (max-width:1020px){
+    .section1 h1 pre{
+        font-size:2.7rem
+    }
+}
+
+@media screen and (max-width:950px) {
+    section.section2 {
+        margin-top: 0;
+    }
+
+    .section1 .left {
+        width: 44%;
+   
+        margin-left: 10%;
+    }
+    .section1 h1 pre {
+
+        font-size: 2.5rem;
+     
+    }
+    img#ell15 {
+        left: 150px;
+        bottom: 270px;
+        width: 9vw;
+    }
+    .right {
+        width: 55%;
+    }
+    .section2 .left div#main {
+        margin-top: 7vw
+    }
+    .section2 div#main {
+      
+        margin-top: 2vw
+    }
+    #rec236 ,#rec233 {
+        width: 32vw;
+        height: 45vw
+}
+.section3 span {
+
+    font-size: medium;
+}
+#img22 {
+    left: 17vw
+}
+.section4 {
+  
+    margin: 10% auto 34%;
+}
+.section5 .inline h2 {
+    font-size: 1.4em;}
+
+    .section6 span#inline {
+        font-size: 17px;}
+        .section6 .inline img {
+            margin-right: 3px;
+            width: 30px;
+ 
+        }
+      
+}
+
+@media screen  and (max-width:850px) {
+    #u{
+
+        top:0
+    }
+
+    .section4 .grey {
+        font-size: medium;}
+
+    img#rec229 {
+        top: -230px
+    }
+
+    #img18 {
+        top: 27px
+    }
+    #img20 {
+        top: 17vw;
+        left:10vw
+    }
+    header button {
+        margin: 5%;}
+
+    header .left {
+      width: auto}
+      header .right {
+      
+        font-size: 16px;
+  
+        justify-content: right;
+      }
+
+    header img {
+        margin: auto;
+        width: 90%;
+    }
+    header .center {
+        margin: auto;
+        width:auto;
+        font-size: 16px;}
+        header .right {
+
+            font-size: 16px;
+     
+            width: 40%;
+        }
+        .section1 .right{
+            width:auto
+        }
+        .section1 .left p#blue {
+            font-size: small;
+        }
+
+        .section1 .right img {
+      
+            margin-top: -3%;}
+        .section2 img {
+            width: 110%;
+            height: 27vw;
+        }
+        .section1 .left {
+            width: 85vw;
+            margin-left: 6%;
+        }
+        .section2 div#main {
+        
+            margin-top: -5%;
+        }
+        .section2 .left div#main {
+            margin-top: 3vw
+        }
+
+        img#ell34 {
+            left: 12vw;
+            top: 22vw;
+        }
+        img#ell32 {
+        left: 12vw
+        }
+        img#grp7 {
+            top: 30vw
+}
+img#ell33 {
+    bottom:32vw
+}
+
+.section3{
+    padding: 5% 5% 1px 5%
+}
+#rec233 {
+
+    margin-bottom: -10vw
+
+}
+.section2 #main h4 {
+
+    font-size: large;
+
+}
+.section6 .inline img {
+  width: 3vw
+}
+.section6 span#inline {
+    font-size: 15px;
+}
+img#ell15 {
+    left: 15vw;
+    bottom: 27vw;
+    width: 13vw
+}
+
+
+img#ell27 {
+    width: 10vw}
+
+img#ell29 {
+    width: 15vw}
+    img#ell26 {
+        width: 10vw}
+    
+        .section3 .block1 h2 {
+           
+            font-size: larger;
+        }
+    }
+
+    @media screen and (max-width:750px) {
+        img#grp6 {
+            z-index: -2;
+            bottom: 15vw
+        }
+        img#ell15 {
+          
+            bottom: 35vw}
+
+        img#rec229 {
+            top: -245px
+        }
+        .section1 h1 pre {
+
+            font-size: 2rem;
+         
+        }
+        header .center {
+      
+            font-size: 14px;
+        }
+        header .right {
+            font-size: 15px;
+     
+        }
+
+        header button {
+         
+            font-size: 15px;
+      
+            width: 90px;
+            height: 40px
+        }
+        header img {
+            margin: auto;
+            width: 80%;
+        }
+
+       .section1 button {
+            font-size: small;
+            margin:5% 0
+        }
+        .section1 .right {
+            width: auto;
+            margin-left: -5vw
+        
+
+    }
+    .section1 .left {
+        
+        margin-left: 5%;
+    }
+    .section1 .right img {
+        width: 50vw}
+        .section1 .left p#blue {
+            font-size: small;
+        }
+        .section2 #title ,#title {
+     
+            font-size: x-large;}
+            section.section2 {
+                margin-top: 5%;
+            }
+            .section2 #image16 {
+             height: 164px
+            }
+            .section2 #main h4 {
+                font-size: medium;
+            }
+            .section2 p#grey {
+                font-size: small;
+            }
+
+            .section2 #blue{
+                font-size: small;
+            }
+            .img17, #img18, #img19, #img20, #img21, #img22 {
+                width: 70px;
+                  height: 70px
+            }
+            #img17{    width: 80px;
+                height: 80px
+            }
+
+            img#rec226 {
+              
+
+                width: 15vw;
+                height: 17vw
+            }
+            img#rec227 {
+                left: 10px;
+                top: -15px;
+                width: 15vw;
+                height: 17vw;
+            }
+            img#rec228 {
+                top: -95px;
+                right: -5vw;
+                width: 150px;
+height: 130px;
+            }
+            .section3 .block1 h2 {
+                font-size: larger;}
+                .section3 span {
+                    font-size: small;
+                }
+                .section3 button {
+                    font-size: small;
+                    width: 25vw;
+                    height: 5vw}
+
+                    
+ .section6 span#inline
+  {
+font-size: 13px;
+}
+.section6 .inline img {
+    width: 2vw
+}.section5 .inline h2 {
+    font-size: 1.2em;
+}
+.section5 button {
+    width: 20vw}
+
+
+    .section6 #logo {
+        
+        width: 25vw}
+        .section6 .block p,.section6 .block span {
+            
+            font-size: small;}
+
+            .title {
+             
+                font-size: x-large;}
+
+
+
+
+    }
+    @media screen and (max-width:640px){
+        img#rec229 {
+            top: -215px
+        }
+        
+        .section2 p {
+            margin-top: 0%;
+        }
+        header{
+            display: none !important;
+        }
+        .menu{
+            display: block;
+        }
+        .section1 h1 pre {
+            font-size:2rem;
+        }
+        .inline{
+            display: flex;
+            flex-direction: column;
+        }
+        h6,p,span{
+            font-size: medium;
+        }
+        .section1 h6 ,.section1 button{
+            margin-top:7%;
+            font-size: medium;
+        }
+        .section1 .left p#blue{
+            font-size: medium;
+            margin-top: 2%;
+        }
+        .section1 .right {
+            width: auto;
+            margin-top: -5vw;
+            margin-right:0
+        }
+        .section1 .left{
+            width:auto
+        }
+        .section2 .inline,.section2 .left, .section2 .right ,.section2 .center,#Center {
+            margin:auto
+        }
+     .section2 .left, .section2 .right ,.section2 .center,#Center {
+            margin-top:5%
+        }
+
+        .section2 .left, .section2 .right ,.section2 .center {
+  width:70%
+        }
+        .section2 #title, #title {
+            font-size: 2rem;
+            line-height: normal;
+        }
+        .section2 img {
+            width: 100%;
+            height: 100%;
+        }
+        .section2 .left img {
+            float:left}
+
+            .section2 #image16 {
+                width: 35vw;
+                top: 15vw;
+                    left: -10vw;
+                    height: 40vw
+                }
+                .section2 .left div#main{
+                    margin-top:0
+                }
+
+                .section2 #main h4 {    margin-bottom: 1%;
+                    font-size: 1.5rem;
+                }
+                .section2 p#grey,.section2 #blue {
+                    font-size: medium;
+                }
+                .section2 #apple {
+                    left: -3%;
+                }
+                #img17, #img18, #img19, #img20, #img21, #img22{    width: 20vw;
+                        height: 20vw}
+                        #img20 {
+                            top: 32vw;
+                            left: 25vw
+                        }
+                        #img22 {
+                            top: 17vw;
+                            left: 30vw
+                        }
+                    
+                        img#rec226 {
+                            width: 30vw;
+                            height: 30vw;
+                            top: 15vw;
+                            right:0vw
+                        }
+                        img#rec227 {
+                            left: 7vw;
+                            
+                            width: 25vw;
+                            height: 25vw
+                        }
+                        img#rec228 {
+                         
+                            width: 25vw;
+                             height: 25vw
+                        }
+                        section.section3 {
+                            margin-top: 10%;padding:5% 0
+                        }
+                        #rec236, #rec233 {
+                            margin: auto;
+                            width: 60vw;
+                            height: 65vw;
+                               text-align: center;
+                            justify-content: center;
+                            display: flex;
+                            
+                        }
+                        img#grp7 {
+                            width: 20vw;
+                            top: 15vw
+                        }
+                        img#ell34 {
+                            width: 25vw;
+                            left: 15vw;
+                               top: 35vw
+                        }
+
+                        .section3 .top .block1 {
+                            padding-left: 20%;
+                        }
+                        .section3 .block1 h2 {
+                            font-size: 1.7rem;
+                            margin-top: 0;
+                        }
+                        .section3 span {
+                            font-size: medium;
+                        }
+                        .section3 button {
+                            width: 30vw;
+                            height: 7vw
+                        }
+                        .section3 .top .block1 {
+                            margin-top: 55vw;
+                            padding:0;
+                        width:60vw;
+                    }
+
+                    .section3 .bottom {
+                        z-index: 2;
+    margin-top: 5vw;
+                        flex-direction: column-reverse;
+                        display: flex;
+                    
+                    }
+                    img#ell31 {
+                        top: 110vw;
+                        width:20vw
+                    }
+                    img#ell33 {
+                        bottom: 0;
+                        left: 30vw;
+                        top: 117vw
+                    }
+                    img#grp8 {
+                        top: 150vw;
+                        width: 40vw
+                    }
+                    .section3 .block1 {
+                        width: 65vw;
+                        padding-left: 15vw;
+                        margin: auto;}
+                        .section3 .bottom .block1 {
+                            margin: auto
+                        }
+                     
+                        img#Rarrow {
+                            margin-left: 5vw}
+                       
+                        img#ell15 {
+                            left: 5vw;
+                               bottom: 40vw}
+                               img#ell26 {
+                                   width:15vw;
+                                left: 5vw;
+                                top: 0;
+                            }
+                            img#ell29{
+                                bottom:40vw
+                            }
+                            img#ell30 {
+                                top: 0;
+                            
+                                width: 12vw
+                            }
+                            img#ell28 {
+                                width: 22vw;
+                                  bottom: 50px;
+                                left: 75vw
+                            }
+                            .section4 {
+                                margin: 10% auto 44%;
+                            }
+
+                            .section6 .inline img {
+                                width: 5vw;
+                                margin-right: 10px;
+                                /* margin: auto; */
+                                text-align: left;
+
+                        }
+                        .section6 span#inline {
+                            text-align: left;
+                            font-size: larger}
+                            .section6 .inline {
+                                margin: auto;
+                                justify-content: space-around;
+                                width: 75%;
+                            }.section6 span#inline {
+                                text-align: center;
+                                font-size: larger;}
+                                .section6 .inline img {
+                                    width: 5vw;
+                                    margin-right: 10px;
+                                
+                                    text-align: center;
+                                }
+                                span#inline{
+                                    margin:0
+                                }
+                                .section6 span#inline,.section6 .block span {
+                                    margin-top: 2%;
+                                    margin-left:10%
+                                }
+                                
+                                
+                                .section6 div#inline1 .block {
+                                    margin: 10%  0;
+                                }
+                                .section6 .block p {
+                                    font-size: large;
+                                }
+                                .section6 .block span {
+                                    
+                                    font-size: medium;
+                                }
+                                .section6 .block p {
+                                    margin: 1% 0;
+                                    font-size: large;
+                                }
+                                .section6 div#inline1 {
+                                    margin: auto;
+                                    justify-content: space-around;
+                                    width: 30%;}
+                                    .section5 .inline h2 {
+                                        font-size: large;
+                                    }
+                                    .section5 button {
+                                      
+                                        font-size: medium;
+                                    }.section5 .inline {
+                                        padding: 5% 3%;}
+                                        .section6 #logo {
+                                            width: 30vw
+                                        }
+                                        .section3 button {
+                                            font-size: medium;}
+                                            .title{
+                                                font-size: xx-large;
+                                                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+                                            }
+                        }
+
+@media screen and (max-width:670px){
+    .section1 h1 pre {
+
+        font-size: 1.7rem;
+     
+    }
+    img#comma {
+        width: 150px;  bottom: 50px}
+    .section4 .grey{
+        font-size: small;
+    }
+}
+    
+@media screen  and (max-width:557px){
+    img#rec229{
+        width:60vw;
+        height:250px;
+        left:15vw;
+        top:-205px
+    }
+    
+    .section1 .right {
+        width: auto;
+        margin-left: 0
+    }
+    .section1 h1 pre {
+        font-size: xx-large;
+    }
+
+
+    .section1 {
+        margin: 7% 0 0 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section1 .right ,  .section1 .right img{
+        width: 100%;}
+
+        .section1 .left .inline,.section1 .left p#blue{
+                display: flex;
+                flex-direction: row;
+                margin: auto 0;
+            }
+            #rec236, #rec233 {
+                margin: auto;
+                width: 70vw;
+                  height: 65vw;}
+                  .section3 button {
+                    width: 40vw;
+                    height: 10vw;
+                }
+                img#ell33 {
+                 
+                    top: 140vw
+                }
+                img#ell31 {
+                    top: 140vw;
+                        right: 5%;
+                        width: 30vw
+                }
+                img#ell27 {
+                    width: 13vw
+                ;
+                }
+              
+                img#ell15 {
+                    left: 5vw;
+                       bottom: 40vw}
+                      
+                    
+                    img#ell29{
+                        bottom:40vw
+                    }
+                  
+                    img#ell28 {
+                        width: 22vw;
+                          bottom: 60px;
+                        left: 75vw
+                    }
+                    img#Larrow {
+                        
+                        bottom: -85px
+                    }
+                    img#Rarrow {
+                       
+                        bottom: -20vw
+                    }
+                    .section5 button {
+                        font-size: small;
+                    }
+                    .section6 .inline {
+                     
+                        width: 100%;
+                    }
+                    .section6 div#inline1 {
+                      
+                        width: 50%;
+                    }
+                    .section5 img#img24 {
+                        width: 95% !important;
+                    }
+
+                  
+                    img#comma {
+                        width: 110px
+                    ;
+                    }
+}
+
+@media screen and (max-width:450px){
+    img#rec229{
+        top:-175px
+    }
+    #u{
+        height: 7%;
+        top:0
+    }
+
+    .section4 .grey {
+        
+        width: 47vw;
+        
+    }
+
+    img#rec228 {
+        width: 30vw;
+        height: 30vw;
+        top:-75px
+    }
+   .section1 button ,.section1 span,.section1 .left p#blue {
+
+        font-size: smaller;
+    }
+     .section1 .left p#blue {
+        display: flex;
+        flex-direction: row;
+        margin: auto 0;
+    }
+    .section2 #title, #title {
+        font-size: 1.8rem;
+      margin-bottom: 5%;
+        line-height: normal;
+    }
+    
+section.section2{
+        margin-top:15%
+    }
+    .section2 #main h4 {
+
+        font-size: larger;
+    }
+    .section2 .left, .section2 .right, .section2 .center {
+        width: 85%;
+    }
+    section.section3 {
+        margin-top: 15%;}
+        #rec236, #rec233 {
+           
+            width: 80vw;
+            height: 90vw;
+        }
+        .section3 .top .block1 {
+            margin-top: 75vw}
+            .section3 .top .block1 {
+                margin-top: 75vw;
+                   
+                width: 80vw
+            }
+            .section3 .block1 h2 {
+                font-size: x-large;
+    
+            }
+            .section3 button {
+                width: max-content;
+                padding:1% 5%;
+                height: 10vw;
+                font-size: smaller;
+            }
+            img#ell29 {
+                bottom: 40vw
+            ;
+            }
+            #rec233 {
+            
+                margin-left: 0;}
+
+                img#ell32 {
+                    left: 10vw;
+                    width: 35px;
+                    height:10vw;
+                    top: 15px;}
+                    img#ell34 {
+                        width: 30vw;
+                        left: 10vw;
+                        top: 42vw;
+                    }
+                    img#ell33 {
+                        top: 175vw;
+                        left:10vw
+                    ;
+                    }
+                    img#ell31 {
+                        top: 170vw;}
+                        
+
+                        .section4 .grey {
+                            font-size: small;}
+
+                            img#Rarrow {
+                                bottom: -90px
+ 
+ 
+                            }
+                            img#ell15 {
+                              
+                                bottom: 40vw
+                            }
+                            .section5 button{
+                                height: 30px;
+                                font-size: x-small;
+                            }
+                            .title {
+                                font-size: x-large;}
+                                .title {
+                                    font-size: x-large;}
+                                    .section6 span#inline {
+                                        text-align: center;
+                                        font-size:medium}
+                                        .section6 #logo {
+                                            width: 40vw
+                                        }
+                                        img#ell35 {
+                                            bottom: 35vw;
+                                            width: 30px;
+                                              left:5px
+                                        }
+                                        img#ell28 {
+                                           
+                                            bottom: 30px
+                                        }
+                                        img#ell27 {
+                                           
+                                            bottom: 40px
+                                        }
+}
+
+
+
+@media screen  and (max-width:350px)
+{
+    
+    img#rec229 {
+    width: 60vw;   height: 50vw;
+
+    top: -135px;    left: 15vw
+}
+img#comma {
+    width: 90px
+}
+
+    .section4 .grey {
+        margin-top: 25%;}
+    .section1 h1 pre {
+        font-size: x-large;
+    }
+    .section1 button{
+        width:35vw
+    }
+    img#ell33 {
+        top: 190vw
+}
+img#ell31 {
+    top: 190vw
+}
+img#Larrow {
+    left: 45vw}
+    .section5 .inline h2 {
+        font-size: medium;
+    }
+.section5 button{
+    height: 30px;
+    font-size: x-small;
+}
+
+.section6 div#inline1 {
+    width: 60%;
+}
+img#ell35 {
+    bottom: 40vw;
+    width: 20px;
+    left: 15px
+}
+.section4 .grey {
+    font-size: x-small;
+}
+}
+
+
+
+@media screen and (min-width:1345px){
+    img#rec229 {
+        left: 290px
+}
+img#group5 {
+    height: 230px;
+    left: 190px;
+    bottom: -170px}
+
+
+
+    img#grp6 {
+        z-index: -2;
+        bottom: -10px;
+        height: 200px;
+        left: 550px
+    }
+    img#grp51 {
+        height: 200px;  top: 250px;   z-index: 1; 
+      
+        right: -500px;
+    }
+}
